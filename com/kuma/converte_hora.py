@@ -1,3 +1,6 @@
+"""arquivo de calculo de parcela"""
+
+
 def converte_hora(hora24, minuto24):
     """Essa Funçao devem pagar"""
     if hora24 > 23 or hora24 < 0 or minuto24 < 0 or minuto24 > 59:
