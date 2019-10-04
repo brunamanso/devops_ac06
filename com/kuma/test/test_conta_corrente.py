@@ -1,5 +1,5 @@
 import pytest
-from com.bbjp.conta_corrente import ContaCorrente
+from com.kuma.conta_corrente import ContaCorrente
 
 conta_corrente = ContaCorrente(1,'Luis',0.0)
 

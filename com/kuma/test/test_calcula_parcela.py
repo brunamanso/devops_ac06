@@ -1,5 +1,5 @@
 import pytest
-from com.bbjp.calcula_parcela import valorPagamento
+from com.kuma.calcula_parcela import valorPagamento
 
 
 def test_valor0():
@@ -12,6 +12,3 @@ def test_valor2():
 
 def test_valor1():
         assert valorPagamento(500, -1) == 500
-
-
-
