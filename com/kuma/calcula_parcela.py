@@ -1,8 +1,8 @@
 """arquivo de calculo de parcela"""
 
 
-def converte_hora(hora24, minuto24):
-    """Essa Funçao devem pagar"""
+def trocar_hora(hora24, minuto24):
+    """Essa Funçao deve pagar"""
     if hora24 > 23 or hora24 < 0 or minuto24 < 0 or minuto24 > 59:
         return None
 
