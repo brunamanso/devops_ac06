@@ -1,14 +1,18 @@
-import pytest
-from com.kuma.calcula_parcela import valorPagamento
+
+"""arquivo de calculo de parcela"""
 
 
 def test_valor0():
-        assert valorPagamento(-1, 5) == None
+        assert valor_pagamento(-1, 5) is None
+
+"""arquivo de calculo de parcela"""
 
 
 def test_valor2():
-        assert valorPagamento(500, 50) == 765.0
+        return valor_pagamento(500, 50) == 765.0
+
+"""arquivo de calculo de parcela"""
 
 
 def test_valor1():
-        assert valorPagamento(500, -1) == 500
+        assert valor_pagamento(500, -1) == 500
