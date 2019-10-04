@@ -8,12 +8,10 @@ before_install:
 
 - python --version
 
-- pip install -U pip
-
-- pip install -U pytest
-
-- pip install -U pytest-cov
+- pip install -r requirements.txt
 
 script:
 
-- pytest --cov=com.bbjp com/bbjp/test/
+- pylint_runner
+
+- pytest --cov=com.kuma com/kuma/test/
